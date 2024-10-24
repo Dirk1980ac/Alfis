@@ -37,7 +37,7 @@ time = "0.3.36"
 rand = { package = "rand", version = "0.8.5" }
 sqlite = "0.36.0"
 uuid = { version = "1.7.0", features = ["serde", "v4"] }
-mio = { version = "1.0.0", features = ["os-poll", "net"] }
+mio = { version = "1.0.2", features = ["os-poll", "net"] }
 ureq = { version = "2.9", optional = true, git = "https://github.com/algesten/ureq" }
 lru = "0.12"
 derive_more = "0.99.18"
